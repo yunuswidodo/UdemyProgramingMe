@@ -17,5 +17,17 @@ public class ReadingInput {
 
         double averange = (fistnumber + secondnumber)/2;
         System.out.println("value of averange =" + averange);
+
+        String name;
+        String surname;
+
+        keyword.nextLine();    //give this method if new data type 
+        System.out.println("enter your name");
+        name = keyword.nextLine();
+
+        System.out.println("enter your surname");
+        surname =keyword.nextLine();
+
+        System.out.println(name + " " + surname);
     }
 }
