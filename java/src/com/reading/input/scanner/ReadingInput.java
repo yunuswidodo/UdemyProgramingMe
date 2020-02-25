@@ -21,7 +21,7 @@ public class ReadingInput {
         String name;
         String surname;
 
-        keyword.nextLine();    //give this method if new data type 
+        keyword.nextLine();    //give this method if new data type
         System.out.println("enter your name");
         name = keyword.nextLine();
 
