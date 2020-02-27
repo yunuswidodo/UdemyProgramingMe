@@ -31,8 +31,5 @@ public class ReadJOptionPane {
 
         JOptionPane.showMessageDialog(null, averange);
 
-
-
-
     }
 }
