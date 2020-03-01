@@ -14,8 +14,12 @@ public class Array {
 
         System.out.println("----------------------------------------");
          int [] numbers2 = {10, 20, 30, 40};
-        for (int x = 0; x < numbers2.length; x ++){
+        /**for (int x = 0; x < numbers2.length; x ++){
             System.out.println(numbers2[x]);
+        }
+         */
+        for (int val : numbers){
+            System.out.println(val);
         }
     }
 }
