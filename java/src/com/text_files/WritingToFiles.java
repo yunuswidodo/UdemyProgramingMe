@@ -6,7 +6,7 @@ import java.io.PrintWriter;
 public class WritingToFiles {
     public static void main(String[] args) throws FileNotFoundException {
 
-        PrintWriter outputFile = new PrintWriter("Outtest.csv");
+        PrintWriter outputFile = new PrintWriter("Outtest.csv");  // create new file
 
         outputFile.println("this line 1");
         outputFile.println("this line 2");
