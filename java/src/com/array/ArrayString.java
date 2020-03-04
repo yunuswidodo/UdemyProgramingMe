@@ -10,7 +10,7 @@ public class ArrayString {
 
             //for print chart
             if (names[i] != null){
-                System.out.println(names[i].charAt(0));
+                System.out.println(names[i].charAt(1));
             }
         }
     }
