@@ -34,7 +34,7 @@ public class Subject {
     @Override
     public String toString(){
         return "Subject Information: \n" +
-                "Subject Code" + subjectCode +
+                "Subject Code" + subjectCode + "/n" +
                 "Subject Name" + subjectName;
     }
 }
