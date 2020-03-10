@@ -12,6 +12,7 @@ public class Subject {
         this.subjectCode = subject.subjectCode;
         this.subjectName = subject.subjectName;
     }
+
     public boolean equals(Subject object){
         return (this.subjectName.equals(object.subjectName) && this.subjectCode.equals(object.subjectCode));
     }
