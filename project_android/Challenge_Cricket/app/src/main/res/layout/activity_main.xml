@@ -22,6 +22,7 @@
         android:layout_below="@id/information"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:inputType="number"
         android:hint="insert Number"
         android:gravity="center_horizontal"/>
 

@@ -26,9 +26,15 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String text = ("coba");
+                //String insert = editText.getText().toString().trim();
+                int insert = Integer.parseInt(editText.getText().toString().trim());
+                int coba = ( insert / 3 )+ 4;
+                String cobaa = String.valueOf(coba);
 
-                textViewresult.setText(text);
+                int fahrehit = (insert + 40);
+                String fahrehitt = String.valueOf(fahrehit);
+
+                textViewresult.setText( "celcius " + cobaa  + "\n" + "fahrehit " + fahrehitt );
             }
         });
     }
