@@ -27,7 +27,7 @@ public class ListFrag extends ListFragment {
     ItemSelected activity;
     // interface if click to detai
     public interface ItemSelected {
-        void onItemSelected(int tayoindex);
+        void onItemSelected(int index);
     }
 
     public ListFrag() {
@@ -44,13 +44,15 @@ public class ListFrag extends ListFragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-        ArrayList<String> data = new ArrayList<>();
-        data.add("1. this is item 1");
-        data.add("2. this is item 2");
-        data.add("3. this is item 3");
+        String[] data = getResources().getStringArray(R.array.pieces);
+
 
         setListAdapter(new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, data));
-        activity.onItemSelected(0);
+        //activity.onItemSelected(0);
+
+        if (this.getActivity().findViewById(R.id.layout_land) != null){
+            activity.onItemSelected(0);
+        }
     }
 
     @Override
