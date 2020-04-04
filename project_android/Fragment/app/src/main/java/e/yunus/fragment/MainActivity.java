@@ -53,5 +53,8 @@ public class MainActivity extends AppCompatActivity implements ListFrag.ItemSele
                     .addToBackStack(null)
                     .commit();
         }
+        //if (findViewById(R.id.layout_potrait) & findViewById(R.id.detailFrag) != null ){
+
+        //}
     }
 }
